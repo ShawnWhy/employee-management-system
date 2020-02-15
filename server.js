@@ -10,17 +10,17 @@ var minion = require("./modules/minion");
 // var terminate = require("./modules/terminateSubFunctions");
 
 var connection = mysql.createConnection({
-  host: "localhost",
+  host: "vvfv20el7sb2enn3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
 
   // Your port; if not 3306
   port: 3306,
 
   // Your username
-  user: "root",
+  user: "eo49wcvwx1y9bp0r",
 
   // Your password
-  password: "password",
-  database: "evilCorp_db"
+  password: "f1neecjlrga5xkxm",
+  database: "g6zrnmjxipcb6r5p"
 });
 
 
