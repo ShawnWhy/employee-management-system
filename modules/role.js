@@ -3,18 +3,18 @@ var inquirer = require("inquirer");
 const cTable = require('console.table');
 
 var connection = mysql.createConnection({
-  host: "vvfv20el7sb2enn3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  host: "localhost",
 
 
   // Your port; if not 3306
   port: 3306,
 
   // Your username
-  user: "eo49wcvwx1y9bp0r",
+  user: "root",
 
   // Your password
-  password: "f1neecjlrga5xkxm",
-  database: "g6zrnmjxipcb6r5p"
+  password: "password",
+  database: "evilcorp_db"
 });
 
 var view=function(){
